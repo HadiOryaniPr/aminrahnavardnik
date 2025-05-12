@@ -1,9 +1,13 @@
-import "./App.css";
+import "./index.css";
+import Navbar from "./Components/Navbar.jsx";
+
 
 function App() {
   return (
     <>
-      <h1 className="text-9xl text-teal-400 text-center mt-72">ARN</h1>
+      <div> 
+        <Navbar/>
+      </div>
     </>
   );
 }
