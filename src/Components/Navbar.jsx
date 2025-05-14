@@ -27,7 +27,7 @@ export default class Navbar extends Component {
 
     return (
       <nav className="z-10 p-1 fixed w-full bg-white shadow-xl">
-        <div className="flex justify-between items-center p-4">
+        <div className="flex flex-row-reverse justify-between items-center p-4">
           {/* Logo Section */}
           <div className="flex ml-5 flex-row-reverse items-center gap-5">
             <div>
@@ -51,7 +51,7 @@ export default class Navbar extends Component {
           </button>
 
           {/* Desktop Menu */}
-          <ul className="hidden mr-5 sm:flex flex-row-reverse gap-10 font-bold cursor-pointer items-center">
+          <ul className="hidden mr-5 sm:flex flex-row gap-10 font-bold cursor-pointer items-center">
             <li className="hover:text-green-400">صفحه اصلی</li>
 
             {/* Dropdown for Desktop */}
@@ -86,7 +86,7 @@ export default class Navbar extends Component {
               className="py-2 border-b hover:text-green-400"
               onClick={this.toggleDropdown}
             >
-              <div className="flex flex-row-reverse justify-between items-center">
+              <div className="flex flex-row justify-between items-center">
                 خدمات <span className="text-xs">▼</span>
               </div>
 

@@ -24,12 +24,12 @@ export default class MainContent extends Component {
             <span className=" text-9xl text-white font-extrabold">R</span>
             <span className=" text-9xl text-red-500 font-extrabold">N</span>
           </h1>
-          <h1 className="text-gray-200 text-xl md:text-3xl font-semibold mt-3 text-3xl">
-            شرکت بزرگ مقیاس امین راهنورد نیک
+          <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-red-500 via-slate-100 text-xl md:text-3xl font-semibold mt-3 text-3xl">
+            شرکت حمل نقل هوشمند بزرگ مقیاس امین راهنورد نیک
           </h1>
-          <button className="font-medium opacity-75 bg-gradient-to-br from-green-600 from-20% via-slate-50/0 via-50% to-rose-600 to-65% text-white text-xl cursor-pointer rounded-4xl py-5 px-20 mt-8">
+          <a href="#main" className="hover:opacity-95 transition-all duration-300 ease-in font-medium opacity-75 bg-gradient-to-br from-green-600 from-20% via-slate-50/0 via-50% to-rose-600 to-65% text-white text-xl cursor-pointer rounded-4xl py-5 px-20 mt-8">
             درباره ما
-          </button>
+          </a>
         </div>
       </main>
     );
