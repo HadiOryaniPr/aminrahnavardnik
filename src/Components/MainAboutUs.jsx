@@ -18,7 +18,7 @@ export default function MainAboutUs() {
   }, []);
 
   return (
-    <main id="main" className="flex flex-col-reverse md:flex-row justify-center items-center gap-10 w-full px-4 md:px-20 py-10">
+    <main id="main" className="flex mt-20 flex-col-reverse md:flex-row justify-center items-center gap-10 w-full px-4 md:px-20 py-10">
       {/* Text Section */}
       <article className="max-w-full md:max-w-[700px] text-center md:text-right">
         <h4 className="text-2xl mb-4 font-extrabold">
