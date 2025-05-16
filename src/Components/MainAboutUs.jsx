@@ -22,7 +22,7 @@ export default function MainAboutUs() {
       {/* Text Section */}
       <article className="max-w-full md:max-w-[700px] text-center md:text-right">
         <h4 className="text-2xl mb-4 font-extrabold">
-          <span className="bg-red-500 px-1">در</span> باره شرکت
+          <span className="bg-rose-500 px-1">در</span> باره شرکت
         </h4>
 
         {/* Background Text - Only show on medium screens and above */}
@@ -33,7 +33,7 @@ export default function MainAboutUs() {
         </div>
 
         <h2 className="text-4xl font-bold">شرکت حمل نقل هوشمند بزرگ مقیاس</h2>
-        <h1 className="text-4xl w-fit p-2 text-red-600 font-black mt-3">امین راهنورد نیک</h1>
+        <h1 className="text-4xl w-fit p-2 text-rose-600 font-black mt-3">امین راهنورد نیک</h1>
         <p className="text-justify font-bold leading-relaxed mt-4">
           ما سفرنامه‌نویسان جاده‌های بی‌پایان هستیم. شرکت حمل‌ونقل هوشمند با بیش از
           100 شعبه فعال در سراسر کشور شبکه‌ای منسجم و گسترده از خدمات لجستیکی ایجاد
@@ -44,11 +44,11 @@ export default function MainAboutUs() {
           حمل‌ونقل. این اطمینان را به شما می‌دهیم که محموله‌تان در دستان کاربلدی
           امانت خواهد بود.
         </p>
-        <button className="rounded-2xl shadow-2xl cursor-pointer hover:bg-red-800 transition-all duration-300 ease-in mt-10 bg-red-600 px-10 py-3 text-white font-bold">معرفی بیشتر</button>
+        <button className="rounded-2xl shadow-2xl cursor-pointer hover:bg-rose-800 transition-all duration-300 ease-in mt-10 bg-rose-600 px-10 py-3 text-white font-bold">معرفی بیشتر</button>
       </article>
 
       {/* Image Slider Section */}
-      <article className="w-full shadow-2xl max-w-[400px] h-[300px] md:h-[600px] relative overflow-hidden rounded-2xl">
+      <article className="w-full md:mr-20 shadow-2xl max-w-[400px] h-[300px] md:h-[600px] relative overflow-hidden rounded-2xl">
         {images.map((img, index) => (
           <img
             key={index}

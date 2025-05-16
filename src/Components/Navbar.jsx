@@ -31,9 +31,9 @@ export default class Navbar extends Component {
           {/* Logo Section */}
           <div className="flex ml-5 flex-row-reverse items-center gap-5">
             <div>
-              <span className="text-3xl text-green-500 font-extrabold">A</span>
+              <span className="text-3xl text-lime-500 font-extrabold">A</span>
               <span className="text-3xl text-gray-200 font-extrabold">R</span>
-              <span className="text-3xl text-red-500 font-extrabold">N</span>
+              <span className="text-3xl text-rose-500 font-extrabold">N</span>
             </div>
             <img
               src="./../../public/logo amin rahnavard0.svg"
