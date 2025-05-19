@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import videoSrc from "../assets/images/truck2.mp4";
+import Flag from '../../public/logo amin rahnavard0.svg';
+
+const flag = Flag
 
 export default class MainContent extends Component {
   render() {
@@ -19,17 +22,19 @@ export default class MainContent extends Component {
 
         {/* Centered Text */}
         <div className="absolute top-0 left-0 w-full h-full place-self-center text-center flex place-content-center flex-col items-center justify-center">
-          <h1 className="text-white text-8xl font-bold">
-            <span className=" text-9xl text-lime-400 font-extrabold">A</span>
+          <h1 className="text-white flex flex-row-reverse text-8xl font-bold">
+            <span className="md:mr-24  text-9xl text-white font-extrabold">A</span>
             <span className=" text-9xl text-white font-extrabold">R</span>
-            <span className=" text-9xl text-rose-500 font-extrabold">N</span>
+            <img width={150} src={flag} alt="aminrahnavardnik" />
+            <span className=" text-9xl text-white font-extrabold">N</span>
           </h1>
-          <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-white via-50% to-rose-500 text-xl md:text-3xl font-semibold mt-3 text-3xl">
-            شرکت حمل نقل هوشمند بزرگ مقیاس امین راهنورد نیک
+          <h1 className="bg-clip-text text-transparent text-white font-bold tracking-widest mt-5 md:text-3xl mt-3 text-3xl">
+            Amin Rahnavard Nik
           </h1>
-          <a href="#main" className="hover:opacity-95  transition-all duration-300 ease-in font-bold opacity-75 bg-gradient-to-r from-lime-400 via-white via-50% to-rose-500 text-xl cursor-pointer rounded-4xl py-5 px-20 mt-8">
-            درباره ما
-          </a>
+          <span className="text-white text-xl font-semibold mt-2">smart transportation</span>
+          <span className="text-2xl mt-1 text-red-500 font-bold">
+           برزگ مقیاس هوشمند
+          </span>
         </div>
       </main>
     );
